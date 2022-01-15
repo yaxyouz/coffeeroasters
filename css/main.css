@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'Barlow';
-    src: url('../fontas/Barlow-Bold.woff2') format('woff2'),
-        url('../fontas/Barlow-Bold.woff') format('woff');
+    src: url('../fonts/Barlow-Bold.woff2') format('woff2'),
+        url('../fonts/Barlow-Bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -9,16 +9,16 @@
 
 @font-face {
     font-family: 'Barlow';
-    src: url('../fontas/Barlow-Regular.woff2') format('woff2'),
-        url('../fontas/Barlow-Regular.woff') format('woff');
+    src: url('../fonts/Barlow-Regular.woff2') format('woff2'),
+        url('../fonts/Barlow-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
 @font-face {
     font-family: 'Fraunces';
-    src: url('../fontas/Fraunces-9ptBlack.woff2') format('woff2'),
-        url('../fontas/Fraunces-9ptBlack.woff') format('woff');
+    src: url('../fonts/Fraunces-9ptBlack.woff2') format('woff2'),
+        url('../fonts/Fraunces-9ptBlack.woff') format('woff');
     font-weight: 900;
     font-style: normal;
     font-display: swap;
@@ -86,10 +86,10 @@ body {
     text-transform: uppercase;
     color: #83888F;
 }
-.header__nav-link {
+.nav__link--black {
     transition: 100ms ease all;
 }
-.header__nav-link:hover {
+.nav__link--black:hover {
     color: #333D4B;
 }
 .intro__container {
@@ -137,6 +137,10 @@ body {
 }
 .plane-link:hover {
     background-color: #0E8784;
+}
+.plane-link:active {
+    background-color: #66D2CF;
+    border: 2px solid #66D2CF;
 }
 .our__container {
     padding-top: 136px;
@@ -303,6 +307,7 @@ body {
     content: "";
     display: block;
     width: 760px;
+    background-color: #FDD6BA;
     border: 2px solid #FDD6BA;
     position: absolute;
     left: 1.48%;
@@ -367,10 +372,10 @@ body {
 .footer__nav {
     padding-left: 102px;
 }
-.footer__nav-link {
+.nav__link--white {
     transition: 100ms ease all;
 }
-.footer__nav-link:hover {
+.nav__link--white:hover {
     color: #FEFCF7;
 }
 .footer__list {
