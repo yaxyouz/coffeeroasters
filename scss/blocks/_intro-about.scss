@@ -1,0 +1,26 @@
+.intro-about__container {
+    width: 1280px;
+    height: 450px;
+    background-image: url("../img/about-intro-img.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+}
+.intro-about__content {
+    width: 445px;
+    padding-top: 137px;
+    padding-left: 85px;
+}
+.intro-about__title {
+    font-family: "Fraunces", Arial, sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FEFCF7;
+    margin: 0;
+}
+.intro-about__descreption {
+    color: #FEFCF7;
+    margin: 0;
+    padding-top: 24px;
+}

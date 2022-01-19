@@ -1,0 +1,32 @@
+.quality__container {
+    position: relative;
+    background-color: #2C343E;
+    border-radius: 10px;
+}
+.quality__content {
+    width: 540px;
+    padding-left: 85px;
+    padding-top: 88px;
+    padding-bottom: 176px;
+}
+.quality__title {
+    font-family: "Fraunces", Arial, sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FEFCF7;
+    margin: 0;
+}
+.quality__descreption {
+    color: #FEFCF7;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    margin: 0;
+    padding-top: 32px;
+}
+.quality__img {
+    border-radius: 10px;
+    position: absolute;
+    right: 85px;
+    top: -87px;
+}

@@ -1,0 +1,123 @@
+.form__container {
+    padding-top: 159px;
+    padding-bottom: 168px;
+}
+.form__filter {
+    display: flex;
+    justify-content: center;
+}
+.form__list {
+    width: 255px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.form__item {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    border-bottom:  2px solid rgba(131, 136, 143, 0.25  );
+}
+.form__item:nth-child(1) {
+    padding-top: 0;
+}
+.form__item:last-child {
+    border: none;
+}
+.button {
+    padding: 0;
+    cursor: pointer;
+    border: transparent;
+    color: #83888F;
+    background-color: transparent;
+    font-family: "Fraunces", Arial, sans-serif;
+    font-weight: 900;
+}
+.form__item-button {
+    font-size: 24px;
+    line-height: 32px;
+}
+.form__item-span:hover {
+    color: #333D4B;
+}
+.form__item-span {
+    padding-left: 25px;
+}
+.form__different {
+    text-align: right;
+}
+.form__content {
+    width: 730px;
+    margin-left: 125px;
+    padding-bottom: 88px;
+}
+.form__button {
+    text-align: left;
+    width: 730px;
+    font-size: 40px;
+    line-height: 48px;
+    background-image: url("../img/create-button.svg");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.form__radios {
+    display: flex;
+    padding-top: 56px;
+}
+.form__label {
+    margin-right: 23px;
+}
+.form__label:last-child {
+    margin-right: 0;
+}
+.form__input:checked + .form__radios-content {
+    background-color: #0E8784;
+    color: #fff;
+}
+.form__radios-content {
+    text-align: center;
+    padding: 32px 25px 84px 28px;
+    width: 228px;
+    background-color: #F4F1EB;
+    border-radius: 8px;
+    color: #333D4B;
+}
+.form__radios-content:hover {
+    background-color: #FDD6BA;
+}
+.form__radios-title {
+    font-family: "Fraunces", Arial, sans-serif;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    margin: 0;
+}
+.form__radios-descreption {
+    margin: 0;
+    padding-top: 24px;
+}
+.form__content--black {
+    text-align: left;
+    background-color: #2C343E;
+    border-radius: 10px;
+    padding: 31px 64px;
+    margin-bottom: 40px;
+}
+.form__content-title {
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.6);
+    mix-blend-mode: normal;
+    margin: 0;
+}
+.form__content-descreption {
+    font-family: "Fraunces", Arial, sans-serif;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 40px;
+    color: #fff;
+    margin: 0;
+    padding-top: 8px;
+}
+.form__content-span {
+    font-family: "Fraunces", Arial, sans-serif;
+    color: #0E8784;
+}

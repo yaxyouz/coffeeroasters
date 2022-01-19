@@ -1,0 +1,25 @@
+.ment__container {
+    display: flex;
+    align-items: center;
+    padding-top: 168px;
+    padding-bottom: 244px;
+}
+.ment__content {
+    width: 540px;
+    padding-left: 125px;
+}
+.ment__title {
+    font-family: "Fraunces", Arial, sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #333D4B;
+    margin: 0;
+}
+.ment__descreption {
+    color: #333D4B;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    margin: 0;
+    padding-top: 32px;
+}

@@ -1,0 +1,25 @@
+.intro-create__container {
+    width: 1280px;
+    height: 450px;
+    padding-left: 86px;
+    padding-top: 134px;
+    background-image: url("../img/create-img.jpg");
+}
+.intro-create__content {
+    color: #FEFCF7;
+}
+.intro-create__title {
+    font-family: "Fraunces", Arial, sans-serif;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    margin: 0;
+    width: 495px;
+}
+.intro-create__descreption {
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    margin: 0;
+    padding-top: 32px;
+    width: 445px;
+}
