@@ -13,8 +13,7 @@
     padding-top: 117px;
 }
 .intro__title {
-    font-family: "Fraunces", Arial, sans-serif;
-    font-weight: 900;
+    @include font;
     font-size: 72px;
     line-height: 72px;
     color: #FEFCF7;

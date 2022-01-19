@@ -3,14 +3,11 @@
     padding-bottom: 168px;
 }
 .form__filter {
-    display: flex;
-    justify-content: center;
+    @include flex;
 }
 .form__list {
     width: 255px;
-    list-style: none;
-    padding: 0;
-    margin: 0;
+    @include reset-list;
 }
 .form__item {
     padding-top: 24px;
@@ -29,8 +26,7 @@
     border: transparent;
     color: #83888F;
     background-color: transparent;
-    font-family: "Fraunces", Arial, sans-serif;
-    font-weight: 900;
+    @include font;
 }
 .form__item-button {
     font-size: 24px;
@@ -85,8 +81,7 @@
     background-color: #FDD6BA;
 }
 .form__radios-title {
-    font-family: "Fraunces", Arial, sans-serif;
-    font-weight: 900;
+    @include font;
     font-size: 24px;
     line-height: 32px;
     margin: 0;
@@ -109,8 +104,7 @@
     margin: 0;
 }
 .form__content-descreption {
-    font-family: "Fraunces", Arial, sans-serif;
-    font-weight: 900;
+    @include font;
     font-size: 24px;
     line-height: 40px;
     color: #fff;
@@ -118,6 +112,6 @@
     padding-top: 8px;
 }
 .form__content-span {
-    font-family: "Fraunces", Arial, sans-serif;
+    @include font;
     color: #0E8784;
 }

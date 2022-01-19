@@ -5,20 +5,15 @@
     position: relative;
 }
 .works__descreption {
-    font-family: "Fraunces", Arial, sans-serif;
-    font-weight: 900;
+    @include font;
     font-size: 24px;
     line-height: 32px;
     color: #83888F;
     margin: 0;
 }
 .works__list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    list-style: none;
-    padding: 0;
-    margin: 0;
+    @include flex;
+    @include reset-list;
     padding-top: 80px;
     padding-bottom: 64px;
 }
@@ -51,8 +46,7 @@
     margin-right: 0;
 }
 .works__item-enjoy {
-    font-family: "Fraunces", Arial, sans-serif;
-    font-weight: 900;
+    @include font;
     font-size: 72px;
     line-height: 72px;
     color: #FDD6BA;
@@ -60,8 +54,7 @@
     padding-top: 67px;
 }
 .works__item-title {
-    font-family: "Fraunces", Arial, sans-serif;
-    font-weight: 900;
+    @include font;
     font-size: 32px;
     line-height: 36px;
     color: #333D4B;

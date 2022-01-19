@@ -16,8 +16,7 @@
     text-align: center;
 }
 .why__title {
-    font-family: "Fraunces", Arial, sans-serif;
-    font-weight: 900;
+    @include font;
     font-size: 40px;
     line-height: 48px;
     color: #FEFCF7;
@@ -33,12 +32,8 @@
     padding-top: 32px;
 }
 .why__list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    list-style: none;
-    padding: 0;
-    margin: 0;
+    @include flex;
+    @include reset-list;
     padding-bottom: 200px;
     padding-top: 86px;
 }
@@ -55,8 +50,7 @@
     margin-right: 0;
 }
 .why__item-title {
-    font-family: "Fraunces", Arial, sans-serif;
-    font-weight: 900;
+    @include font;
     font-size: 24px;
     line-height: 32px;
     color: #FEFCF7;

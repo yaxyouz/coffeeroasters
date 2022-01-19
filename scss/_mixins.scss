@@ -1,0 +1,14 @@
+@mixin reset-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+@mixin font {
+    font-family: "Fraunces", Arial, sans-serif;
+    font-weight: 900;
+}
+@mixin flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
