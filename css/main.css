@@ -1228,12 +1228,21 @@ a {
   padding-top: 56px;
 }
 
-.form__label {
+.form__radios-different {
+  position: relative;
   margin-right: 23px;
 }
 
-.form__label:last-child {
+.form__radios-different:last-child {
   margin-right: 0;
+}
+
+.form__label {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 
 .form__input:checked + .form__radios-content {
