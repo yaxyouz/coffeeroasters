@@ -12,11 +12,11 @@
     @include font;
     font-size: 40px;
     line-height: 48px;
-    color: #333D4B;
+    color: $dark;
     margin: 0;
 }
 .ment__descreption {
-    color: #333D4B;
+    color: $dark;
     mix-blend-mode: normal;
     opacity: 0.8;
     margin: 0;

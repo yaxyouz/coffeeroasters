@@ -1,11 +1,14 @@
 .intro-create__container {
-    width: 1280px;
-    height: 450px;
-    padding-left: 86px;
-    padding-top: 134px;
+    width: 1280px;   
     background-image: url("../img/create-img.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
 }
 .intro-create__content {
+    padding-left: 86px;
+    padding-top: 134px;
+    padding-bottom: 134px;
     color: #FEFCF7;
 }
 .intro-create__title {

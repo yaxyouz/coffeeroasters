@@ -21,8 +21,8 @@
     content: "";
     display: block;
     width: 760px;
-    background-color: #FDD6BA;
-    border: 2px solid #FDD6BA;
+    background-color: $accent-color;
+    border: 2px solid $accent-color;
     position: absolute;
     left: 1.48%;
     top: 14.2%;   
@@ -49,7 +49,7 @@
     @include font;
     font-size: 72px;
     line-height: 72px;
-    color: #FDD6BA;
+    color: $accent-color;
     margin: 0;
     padding-top: 67px;
 }
@@ -57,13 +57,13 @@
     @include font;
     font-size: 32px;
     line-height: 36px;
-    color: #333D4B;
+    color: $dark;
     margin: 0;
     padding-top: 38px;
     width: 255px;
 }
 .works__item-descreption {
-    color: #333D4B;
+    color: $dark;
     margin: 0;
     padding-top: 42px;
 }

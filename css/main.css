@@ -370,6 +370,7 @@ template {
 *::before {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -562,10 +563,10 @@ a {
 
 .intro__container {
   width: 1280px;
-  height: 600px;
   background-image: url("../img/intro-img.jpg");
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center center;
+  background-size: cover;
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
@@ -575,6 +576,7 @@ a {
   width: 693px;
   padding-left: 85px;
   padding-top: 117px;
+  padding-bottom: 117px;
 }
 
 .intro__title {
@@ -871,16 +873,17 @@ a {
 
 .intro-about__container {
   width: 1280px;
-  height: 450px;
   background-image: url("../img/about-intro-img.jpg");
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center center;
+  background-size: cover;
   border-radius: 10px;
 }
 
 .intro-about__content {
   width: 445px;
   padding-top: 137px;
+  padding-bottom: 137px;
   padding-left: 85px;
 }
 
@@ -1028,13 +1031,16 @@ a {
 
 .intro-create__container {
   width: 1280px;
-  height: 450px;
-  padding-left: 86px;
-  padding-top: 134px;
   background-image: url("../img/create-img.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
 }
 
 .intro-create__content {
+  padding-left: 86px;
+  padding-top: 134px;
+  padding-bottom: 134px;
   color: #FEFCF7;
 }
 

@@ -1,14 +1,15 @@
 .intro-about__container {
     width: 1280px;
-    height: 450px;
     background-image: url("../img/about-intro-img.jpg");
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center center;
+    background-size: cover;
     border-radius: 10px;
 }
 .intro-about__content {
     width: 445px;
     padding-top: 137px;
+    padding-bottom: 137px;
     padding-left: 85px;
 }
 .intro-about__title {

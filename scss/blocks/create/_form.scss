@@ -74,11 +74,11 @@
     padding: 32px 25px 84px 28px;
     width: 228px;
     background-color: #F4F1EB;
-    border-radius: 8px;
-    color: #333D4B;
+    border-radius: $small-radius;
+    color: $dark;
 }
 .form__radios-content:hover {
-    background-color: #FDD6BA;
+    background-color: $accent-color;
 }
 .form__radios-title {
     @include font;

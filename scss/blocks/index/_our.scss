@@ -45,13 +45,13 @@
     @include font;
     font-size: 24px;
     line-height: 32px;
-    color: #333D4B;
+    color: $dark;
     margin: 0;
     padding-top: 72px;
     z-index: 1;
 }
 .our__item-descreption {
-    color: #333D4B;
+    color: $dark;
     margin: 0;
     padding-top: 24px;
     z-index: 1;
