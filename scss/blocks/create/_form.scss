@@ -85,8 +85,12 @@
     border-radius: $small-radius;
     color: $dark;
 }
-.form__radios-content:hover {
+.form__radios-different:hover .form__radios-content {
     background-color: $accent-color;
+}
+.form__input:checked + .form__radios-content {
+    background-color: #0E8784;
+    color: #fff;
 }
 .form__radios-title {
     @include font;
