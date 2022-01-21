@@ -6,6 +6,18 @@
     background-size: cover;
     border-radius: 10px;
 }
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) { 
+  
+  .intro-about__container {
+      background-image: url("../img/about-intro-img@2x.jpg");
+    }
+}
 .intro-about__content {
     width: 445px;
     padding-top: 137px;
