@@ -1,6 +1,17 @@
 .container {
-    width: 1280px;
+    max-width: 1280px;
     margin: 0 auto;
+    padding: 0 15px;
+}
+@media screen and (max-width: $tablet) {
+    .container {
+        max-width: 719px;
+    }
+}
+@media screen and (max-width: $mobile) {
+    .container {
+        max-width: 327px;
+    }
 }
 .vce-container {
     width: 1110px;

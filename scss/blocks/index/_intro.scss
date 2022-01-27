@@ -1,5 +1,4 @@
-.intro__container {
-    width: 1280px;
+.intro__wrapper {
     background-image: url("../img/intro-img.jpg");
     background-repeat: no-repeat;
     background-position: center center;
@@ -20,8 +19,8 @@ only screen and (                min-resolution: 2dppx) {
   }
 }
 .intro__content {
-    width: 693px;       
-    padding-left: 85px;
+    width: 495px;      
+    margin-left: 85px;
     padding-top: 117px;
     padding-bottom: 117px;
 }
@@ -40,4 +39,42 @@ only screen and (                min-resolution: 2dppx) {
     margin: 0;
     padding-top: 32px;
     padding-bottom: 56px;
+}
+
+@media screen and (max-width: $tablet) {
+    .intro__wrapper {
+        background-image: url("../img/intro-bg-tablet.jpg");
+    }
+    .intro__content {
+        padding-left: 58px;
+        padding-top: 104px;
+        padding-bottom: 104px;
+        margin-left: 0;
+    }
+    .intro__title {
+        font-size: 48px;
+        line-height: 48px;
+    }
+    .intro__descreption {
+        width: 100%;
+        padding-top: 24px;
+        padding-bottom: 40px;
+    }
+}
+
+@media screen and (max-width: $mobile) {
+    .intro__wrapper {
+        background-image: url("../img/intro-bg-mobile.jpg");
+    }
+    .intro__content {
+        width: 100%;
+        padding-left: 0;
+        margin-left: 0;
+        text-align: center;
+    }
+    .intro__title {
+        font-size: 40px;
+        line-height: 40px;
+        margin-right: 0;
+    }
 }
