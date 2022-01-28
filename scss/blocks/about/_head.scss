@@ -38,3 +38,42 @@
 .head__item-item {
     color: $dark;
 }
+@media screen and (max-width: $tablet) {
+    .head__container {
+        padding-top: 144px;
+        padding-bottom: 144px;
+    }
+    .head__item {
+        width: 223px;
+        margin-right: 10px;
+    }
+    .head__item:nth-child(3n),
+    .head__item:last-child {
+    margin-right: 0;
+    }
+    .head__item-title {
+        font-size: 24px;
+    }
+    .head__item-list {
+        padding-top: 21px;
+    }
+}
+@media screen and (max-width: $mobile) {
+    .head__container {
+        padding-top: 120px;
+        padding-bottom: 120px;
+        text-align: center;
+    }
+    .head__item {
+        width: 100%;
+        margin-right: 0;
+        padding-bottom: 80px;
+    }
+    .head__item:last-child {
+        padding-bottom: 0;
+    }
+    .head__item-title {
+        font-size: 28px;
+        line-height: 36px;
+    }
+}

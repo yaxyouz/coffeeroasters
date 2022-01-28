@@ -6,7 +6,11 @@
 }
 .ment__content {
     width: 540px;
-    padding-left: 125px;
+    margin-left: 125px;
+}
+.ment__img {
+    width: 445px;
+    height: 520px
 }
 .ment__title {
     @include font;
@@ -21,4 +25,46 @@
     opacity: 0.8;
     margin: 0;
     padding-top: 32px;
+}
+@media screen and (max-width: $tablet) {
+    .ment__container {
+        padding-top: 144px;
+        padding-bottom: 144px;
+    }
+    .ment__content {
+        width: 100%;
+        padding-left: 0;
+        margin-left: 69px;
+    }
+    .ment__img {
+        width: 281px;
+        height: 470px
+    }
+    .ment__title {
+        font-size: 32px;
+        line-height: 48px;
+    }
+    .ment__descreption {
+        font-size: 15px;
+        line-height: 25px;  
+        padding-top: 30px;
+    }
+}
+@media screen and (max-width: $mobile) {
+    .ment__container {
+        padding-top: 120px;
+        padding-bottom: 120px;
+        flex-direction: column;
+        text-align: center;
+    }
+    .ment__content {
+        margin-left: 0;
+    }
+    .ment__img {
+        width: 327px;
+        height: 400px
+    }
+    .ment__title {
+       padding-top: 48px;
+    }
 }

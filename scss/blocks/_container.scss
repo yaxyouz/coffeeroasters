@@ -30,6 +30,17 @@
 }
 
 .vce-container {
-    width: 1110px;
+    width: 1140px;
     margin: 0 auto;
+    padding: 0 15px;
+}
+@media screen and (max-width: $tablet) {
+    .vce-container {
+        max-width: 719px;
+    }
+}
+@media screen and (max-width: $mobile) {
+    .vce-container {
+        max-width: 327px;
+    }
 }

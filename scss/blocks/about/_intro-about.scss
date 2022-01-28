@@ -1,5 +1,4 @@
-.intro-about__container {
-    width: 1280px;
+.intro-about__wrapper {
     background-image: url("../img/about-intro-img.jpg");
     background-repeat: no-repeat;
     background-position: center center;
@@ -14,7 +13,7 @@ only screen and (        min-device-pixel-ratio: 2),
 only screen and (                min-resolution: 192dpi),
 only screen and (                min-resolution: 2dppx) { 
   
-  .intro-about__container {
+  .intro-about__wrapper {
       background-image: url("../img/about-intro-img@2x.jpg");
     }
 }
@@ -35,4 +34,41 @@ only screen and (                min-resolution: 2dppx) {
     color: #FEFCF7;
     margin: 0;
     padding-top: 24px;
+}
+@media screen and (max-width: $tablet) {
+    .intro-about__wrapper {
+        background-image: url("../img/about-intro-tablet.jpg"); 
+    }
+    .intro-about__content {
+        width: 398px;
+        padding-top: 118px;
+        padding-bottom: 118px;
+        padding-left: 0;
+        margin-left: 85px;
+    }
+    .intro-about__title {
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .intro-about__descreption {
+        padding-top: 24px;
+        font-size: 15px;
+        line-height: 25px;
+    }
+}
+@media screen and (max-width: $mobile) {
+    .intro-about__wrapper {
+        background-image: url("../img/about-intro-mobile.jpg"); 
+        text-align: center;
+    }
+    .intro-about__content {
+        width: 100%;
+        padding-top: 111px;
+        padding-bottom: 87px;
+        margin-left: 0;
+    }
+    .intro-about__title {
+        font-size: 28px;
+        line-height: 28px;
+    }
 }
