@@ -1159,10 +1159,6 @@ a {
     width: 220px;
     margin-right: 10px;
   }
-  .works__item::before {
-    width: 31px;
-    height: 31px;
-  }
   .works__item-title {
     font-size: 28px;
     line-height: 32px;
@@ -1197,6 +1193,9 @@ a {
     width: 327px;
     margin-right: 0;
     margin-bottom: 56px;
+  }
+  .works__item-enjoy {
+    padding-top: 0;
   }
   .works__item:last-child {
     margin-bottom: 0;
@@ -1564,8 +1563,7 @@ a {
   }
 }
 
-.intro-create__container {
-  width: 1280px;
+.intro-create__wrapper {
   background-image: url("../img/create-img.jpg");
   background-repeat: no-repeat;
   background-position: center center;
@@ -1579,7 +1577,7 @@ a {
 }
 
 .intro-create__content {
-  padding-left: 86px;
+  margin-left: 86px;
   padding-top: 134px;
   padding-bottom: 134px;
   color: #FEFCF7;
@@ -1591,22 +1589,63 @@ a {
   font-size: 72px;
   line-height: 72px;
   margin: 0;
-  width: 495px;
 }
 
 .intro-create__descreption {
+  width: 445px;
   mix-blend-mode: normal;
   opacity: 0.8;
   margin: 0;
   padding-top: 32px;
-  width: 445px;
 }
 
-.create-works__container {
+@media screen and (max-width: 1310px) {
+  .intro-create__wrapper {
+    background-image: url("../img/create-img-tablet.jpg");
+  }
+  .intro-create__content {
+    margin-left: 58px;
+    padding-top: 127px;
+    padding-bottom: 127px;
+  }
+  .intro-create__title {
+    font-size: 48px;
+    line-height: 48px;
+  }
+  .intro-create__descreption {
+    padding-top: 24px;
+    font-size: 15px;
+    line-height: 25px;
+  }
+}
+
+@media screen and (max-width: 719px) {
+  .intro-create__wrapper {
+    background-image: url("../img/create-img-mobile.jpg");
+  }
+  .intro-create__content {
+    text-align: center;
+    margin-left: 0;
+    padding-top: 100px;
+    padding-bottom: 136px;
+  }
+  .intro-create__title {
+    font-size: 40px;
+    line-height: 40px;
+  }
+  .intro-create__descreption {
+    width: 100%;
+    padding-top: 22px;
+  }
+}
+
+.create-works__wrapper {
   padding-bottom: 100px;
+  padding-top: 100px;
   background-color: #2C343E;
   color: #FEFCF7;
   margin-top: 168px;
+  border-radius: 10px;
 }
 
 .create-works__list {
@@ -1621,7 +1660,6 @@ a {
   list-style: none;
   padding: 0;
   margin: 0;
-  padding-top: 100px;
   position: relative;
 }
 
@@ -1632,8 +1670,8 @@ a {
   background-color: #FDD6BA;
   border: 2px solid #FDD6BA;
   position: absolute;
-  left: 10.48%;
-  top: 20.6%;
+  left: 117px;
+  top: 14px;
   z-index: 0;
 }
 
@@ -1674,7 +1712,6 @@ a {
   line-height: 36px;
   margin: 0;
   padding-top: 38px;
-  width: 255px;
 }
 
 .create-works__item-descreption {
@@ -1682,7 +1719,81 @@ a {
   padding-top: 42px;
 }
 
+@media screen and (max-width: 1310px) {
+  .create-works {
+    background-color: #2C343E;
+  }
+  .create-works__wrapper {
+    padding-bottom: 96px;
+    margin-top: 144px;
+  }
+  .create-works__list {
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
+  .create-works__list::before {
+    width: 467px;
+    left: 16px;
+    top: 13px;
+  }
+  .create-works__item {
+    width: 223px;
+    margin-right: 10px;
+  }
+  .create-works__item-title {
+    font-size: 28px;
+    line-height: 32px;
+    padding-top: 42px;
+  }
+  .create-works__item-title--wh {
+    width: 100%;
+  }
+  .create-works__item-descreption {
+    padding-top: 39px;
+    font-size: 15px;
+    line-height: 25px;
+  }
+}
+
+@media screen and (max-width: 719px) {
+  .create-works__wrapper {
+    padding-bottom: 80px;
+    margin-top: 120px;
+    text-align: center;
+  }
+  .create-works__list {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .create-works__list::before {
+    display: none;
+  }
+  .create-works__item::before {
+    display: none;
+  }
+  .create-works__item {
+    width: 327px;
+    margin-right: 0;
+    padding-bottom: 56px;
+  }
+  .create-works__item:last-child {
+    padding-bottom: 0;
+  }
+  .create-works__item-enjoy {
+    padding-top: 0;
+  }
+  .create-works__item-title {
+    width: 100%;
+    padding-top: 24px;
+  }
+  .create-works__item-descreption {
+    width: 100%;
+    padding-top: 24px;
+  }
+}
+
 .form__container {
+  display: none;
   padding-top: 159px;
   padding-bottom: 168px;
 }

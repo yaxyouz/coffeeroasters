@@ -93,10 +93,6 @@
         width: 220px;
         margin-right: 10px;
     }
-    .works__item::before {
-        width: 31px;
-        height: 31px;
-    }
     .works__item-title {
         font-size: 28px;
         line-height: 32px;
@@ -130,6 +126,9 @@
         width: 327px;
         margin-right: 0;
         margin-bottom: 56px;
+    }
+    .works__item-enjoy {
+        padding-top: 0;
     }
     .works__item:last-child {
         margin-bottom: 0;
