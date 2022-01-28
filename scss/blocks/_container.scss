@@ -13,6 +13,22 @@
         max-width: 327px;
     }
 }
+.works__container {
+    width: 1075px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+@media screen and (max-width: $tablet) {
+    .works__container {
+        max-width: 719px;
+    }
+}
+@media screen and (max-width: $mobile) {
+    .works__container {
+        max-width: 327px;
+    }
+}
+
 .vce-container {
     width: 1110px;
     margin: 0 auto;

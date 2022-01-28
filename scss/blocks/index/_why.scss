@@ -1,9 +1,8 @@
-.why__container {
-    display: none;
+.why__wrapper {
     margin-top: 300px;
     position: relative;
 }
-.why__container::before {
+.why__wrapper::before {
     content: "";
     width: 100%;
     height: 577px;
@@ -50,13 +49,16 @@
 .why__item:last-child {
     margin-right: 0;
 }
+.why__item-content {
+    padding-top: 56px;
+    padding-bottom: 48px;
+}
 .why__item-title {
     @include font;
     font-size: 24px;
     line-height: 32px;
     color: #FEFCF7;
     margin: 0;
-    padding-top: 56px;
 }
 .why__item-descreption {
     display: inline-block;
@@ -64,5 +66,93 @@
     color: #FEFCF7;
     margin: 0;
     padding-top: 24px;
-    padding-bottom: 48px;
+}
+
+@media screen and (max-width: $tablet) {
+    .why__wrapper {
+        margin-top: 200px;
+    }
+    .why__wrapper::before {
+        height: 573px;
+        top: -56px;
+    }
+    .why__title {
+        font-size: 32px;
+        line-height: 48px;
+    }
+    .why__descreption {
+        padding-top: 24px;
+    }
+    .why__list {
+        padding-top: 70px;
+        padding-bottom: 144px;
+    }
+    .why__item {
+        width: 573px;
+        @include flex;
+        align-items: center;
+        justify-content: flex-start;
+        margin-right: 0;
+        padding-top: 0;
+        margin-bottom: 24px;
+        padding-left: 70px;
+    }
+    .why__item:last-child {
+        margin-bottom: 0;
+    }
+    .why__item-content {
+        width: 344px;
+        text-align: left;
+        padding-top: 41px;
+        padding-bottom: 41px;
+        margin-left: 55px;
+    }
+    .why__item-descreption {
+        width: 100%;
+        padding-top: 16px;
+    }
+}
+@media screen and (max-width: $mobile) {
+    .why__wrapper {
+        margin-top: 184px;
+    }
+    .why__wrapper::before {
+        height: 902px;
+        top: -64px;
+    }
+    .why__title {
+        font-size: 28px;
+        line-height: 28px;
+    }
+    .why__descreption {
+        width: 100%;
+        padding: 24px 24px 0;
+    } 
+    .why__list {
+        padding-top: 64px;
+        padding-bottom: 120px;
+    }
+    .why__item {
+        width: 279px;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 24px;
+        padding-left: 0;
+        padding-top: 72px;
+    }
+    .why__item:last-child {
+        margin-bottom: 0;
+    }
+    .why__item-content {
+        width: 255px;
+        text-align: center;
+        padding-top: 51px;
+        padding-bottom: 48px;
+        margin-left: 0;
+    }
+    .why__item-descreption {
+        width: 100%;
+        padding-top: 24px;
+    }
+    
 }
