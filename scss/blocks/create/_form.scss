@@ -51,11 +51,17 @@
     width: 100%;
     font-size: 40px;
     line-height: 48px;
-    background-image: url("../img/create-button.svg");
+    background-image: url("../img/open-button.svg");
     background-repeat: no-repeat;
     background-position: right;
 }
+.form__button--close {
+    background-image: url("../img/close-button.svg");
+}
 .form__radios {
+    display: none;
+}
+.form__radios--open {
     display: flex;
     padding-top: 56px;
 }
@@ -148,7 +154,7 @@
     .form__button {
         font-size: 32px;
     }
-    .form__radios {
+    .form__radios--open {
         padding-top: 40px;
     }
     .form__radios-different {
@@ -175,8 +181,7 @@
         font-size: 24px;
         line-height: 28px;
     }
-    .form__radios {
-        display: flex;
+    .form__radios--open {
         flex-direction: column;
         padding-top: 32px;
     }
