@@ -693,6 +693,11 @@ a {
   color: #FEFCF7;
 }
 
+.footer__nav-link {
+  font-size: 12px;
+  line-height: 15px;
+}
+
 .footer__list {
   display: -webkit-box;
   display: -ms-flexbox;
