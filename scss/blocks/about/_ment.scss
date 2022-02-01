@@ -8,10 +8,6 @@
     width: 540px;
     margin-left: 125px;
 }
-.ment__img {
-    width: 445px;
-    height: 520px
-}
 .ment__title {
     @include font;
     font-size: 40px;
@@ -31,14 +27,14 @@
         padding-top: 144px;
         padding-bottom: 144px;
     }
-    .ment__content {
-        width: 100%;
-        padding-left: 0;
-        margin-left: 69px;
-    }
     .ment__img {
         width: 281px;
-        height: 470px
+        height: 470px;
+    }
+    .ment__content {
+        width: 340px;
+        padding-left: 0;
+        margin-left: 69px;
     }
     .ment__title {
         font-size: 32px;
@@ -57,12 +53,13 @@
         flex-direction: column;
         text-align: center;
     }
-    .ment__content {
-        margin-left: 0;
-    }
     .ment__img {
         width: 327px;
-        height: 400px
+        height: 400px;
+    }
+    .ment__content {
+        width: 100%;
+        margin-left: 0;
     }
     .ment__title {
        padding-top: 48px;

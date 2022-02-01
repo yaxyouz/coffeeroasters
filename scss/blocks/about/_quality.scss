@@ -32,6 +32,9 @@
     right: 85px;
     top: -87px;
 }
+.quality__img img {
+    border-radius: 10px;
+}
 @media screen and (max-width: $tablet) {
     .quality__container {
         margin-top: 160px;
@@ -43,6 +46,10 @@
         position: absolute;
         top: -160px;
         left: calc(50% - 286px);
+    }
+    .quality__coffe {
+        width: 573px;
+        height: 320px;
     }
     .quality__content {
         width: 540px;
@@ -69,8 +76,12 @@
         width: 280px;
         height: 156px;
         position: absolute;
-        top: -80px;
+        top: -80px; 
         left: calc(50% - 140px);
+    }
+    .quality__coffe {
+        width: 279px;
+        height: 156px;
     }
     .quality__content {
         width: 100%;
