@@ -637,7 +637,7 @@ a {
     right: 0;
     top: 100%;
     bottom: 0;
-    height: 600%;
+    height: 100vh;
     z-index: 1;
     background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(254, 252, 247, 0.504981)), color-stop(55.94%, #FEFCF7));
     background-image: linear-gradient(0deg, rgba(254, 252, 247, 0.504981) 0%, #FEFCF7 55.94%);
@@ -845,6 +845,11 @@ a {
     line-height: 40px;
     margin-right: 0;
   }
+}
+
+.our {
+  position: relative;
+  z-index: 1;
 }
 
 .our__container {
@@ -1450,6 +1455,11 @@ a {
   }
 }
 
+.ment {
+  position: relative;
+  z-index: 1;
+}
+
 .ment__container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1807,6 +1817,11 @@ a {
     width: 100%;
     padding-top: 22px;
   }
+}
+
+.create-works {
+  position: relative;
+  z-index: 1;
 }
 
 .create-works__wrapper {
