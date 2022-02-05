@@ -13,7 +13,7 @@ only screen and (        min-device-pixel-ratio: 2),
 only screen and (                min-resolution: 192dpi),
 only screen and (                min-resolution: 2dppx) { 
   
-  .intro-create__container {
+  .intro-create__wrapper {
     background-image: url("../img/create-img@2x.jpg");
   }
 }
