@@ -38,7 +38,6 @@ only screen and (                min-resolution: 2dppx) {
 @media screen and (max-width: $tablet) {
     .intro-create__wrapper {  
         background-image: url("../img/create-img-tablet.jpg");
-        background-repeat: no-repeat;
     }
     .intro-create__content {
         margin-left: 58px;
@@ -58,7 +57,6 @@ only screen and (                min-resolution: 2dppx) {
 @media screen and (max-width: $mobile) {
     .intro-create__wrapper {  
         background-image: url("../img/create-img-mobile.jpg");
-        background-repeat: no-repeat;
     }
     .intro-create__content {
         text-align: center;

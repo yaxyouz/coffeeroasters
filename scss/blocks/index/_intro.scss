@@ -44,7 +44,6 @@ only screen and (                min-resolution: 2dppx) {
 @media screen and (max-width: $tablet) {
     .intro__wrapper {
         background-image: url("../img/intro-bg-tablet.jpg");
-        background-repeat: no-repeat;
     }
     .intro__content {
         padding-left: 58px;
@@ -65,8 +64,7 @@ only screen and (                min-resolution: 2dppx) {
 
 @media screen and (max-width: $mobile) {
     .intro__wrapper {
-        background-image: url("../img/intro-bg-mobile.jpg"); 
-        background-repeat: no-repeat;
+        background-image: url("../img/intro-bg-mobile.jpg");
     }
     .intro__content {
         width: 100%;
