@@ -3,7 +3,7 @@
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    border-radius: 10px;
+    border-radius: 10px; 
 }
 @media
 only screen and (-webkit-min-device-pixel-ratio: 2),
@@ -38,6 +38,7 @@ only screen and (                min-resolution: 2dppx) {
 @media screen and (max-width: $tablet) {
     .intro-about__wrapper {
         background-image: url("../img/about-intro-tablet.jpg"); 
+        background-repeat: no-repeat;
     }
     .intro-about__content {
         width: 398px;
@@ -59,6 +60,7 @@ only screen and (                min-resolution: 2dppx) {
 @media screen and (max-width: $mobile) {
     .intro-about__wrapper {
         background-image: url("../img/about-intro-mobile.jpg"); 
+        background-repeat: no-repeat;
         text-align: center;
     }
     .intro-about__content {
