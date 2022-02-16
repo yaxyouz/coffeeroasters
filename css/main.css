@@ -768,18 +768,15 @@ a {
 }
 
 .intro__wrapper {
-  background-image: url("../img/intro-img.jpg");
-  background-repeat: no-repeat;
-  background-position: center center;
+  background: url("../img/intro-img.jpg") no-repeat center;
   background-size: cover;
-  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-  .intro__container {
-    background-image: url("../img/intro-img@2x.jpg");
+  .intro__wrapper {
+    background: url("../img/intro-img@2x.jpg") no-repeat center;
+    background-size: cover;
   }
 }
 
@@ -811,7 +808,8 @@ a {
 
 @media screen and (max-width: 1310px) {
   .intro__wrapper {
-    background-image: url("../img/intro-bg-tablet.jpg");
+    background: url("../img/intro-bg-tablet.jpg") no-repeat center;
+    background-size: cover;
   }
   .intro__content {
     padding-left: 58px;
@@ -832,7 +830,8 @@ a {
 
 @media screen and (max-width: 719px) {
   .intro__wrapper {
-    background-image: url("../img/intro-bg-mobile.jpg");
+    background: url("../img/intro-bg-mobile.jpg") no-repeat center;
+    background-size: cover;
   }
   .intro__content {
     width: 100%;
@@ -1381,16 +1380,15 @@ a {
 }
 
 .intro-about__wrapper {
-  background-image: url("../img/about-intro-img.jpg");
-  background-repeat: no-repeat;
-  background-position: center center;
+  background: url("../img/about-intro-img.jpg") no-repeat center;
   background-size: cover;
   border-radius: 10px;
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
   .intro-about__wrapper {
-    background-image: url("../img/about-intro-img@2x.jpg");
+    background: url("../img/about-intro-img@2x.jpg") no-repeat center;
+    background-size: cover;
   }
 }
 
@@ -1418,7 +1416,8 @@ a {
 
 @media screen and (max-width: 1310px) {
   .intro-about__wrapper {
-    background-image: url("../img/about-intro-tablet.jpg");
+    background: url("../img/about-intro-tablet.jpg") no-repeat center;
+    background-size: cover;
   }
   .intro-about__content {
     width: 398px;
@@ -1440,7 +1439,8 @@ a {
 
 @media screen and (max-width: 719px) {
   .intro-about__wrapper {
-    background-image: url("../img/about-intro-mobile.jpg");
+    background: url("../img/about-intro-mobile.jpg") no-repeat center;
+    background-size: cover;
     text-align: center;
   }
   .intro-about__content {
@@ -1744,15 +1744,15 @@ a {
 }
 
 .intro-create__wrapper {
-  background-image: url("../img/create-img.jpg");
-  background-repeat: no-repeat;
-  background-position: center center;
+  background: url("../img/create-img.jpg") no-repeat center;
   background-size: cover;
+  border-radius: 10px;
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-  .intro-create__container {
-    background-image: url("../img/create-img@2x.jpg");
+  .intro-create__wrapper {
+    background: url("../img/create-img@2x.jpg") no-repeat center;
+    background-size: cover;
   }
 }
 
@@ -1781,7 +1781,8 @@ a {
 
 @media screen and (max-width: 1310px) {
   .intro-create__wrapper {
-    background-image: url("../img/create-img-tablet.jpg");
+    background: url("../img/create-img-tablet.jpg") no-repeat center;
+    background-size: cover;
   }
   .intro-create__content {
     margin-left: 58px;
@@ -1801,7 +1802,8 @@ a {
 
 @media screen and (max-width: 719px) {
   .intro-create__wrapper {
-    background-image: url("../img/create-img-mobile.jpg");
+    background: url("../img/create-img-mobile.jpg") no-repeat center;
+    background-size: cover;
   }
   .intro-create__content {
     text-align: center;
