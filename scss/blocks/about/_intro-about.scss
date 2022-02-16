@@ -1,7 +1,5 @@
 .intro-about__wrapper {
-    background-image: url("../img/about-intro-img.jpg");
-    background-repeat: no-repeat;
-    background-position: center center;
+    background: url("../img/about-intro-img.jpg") no-repeat center;
     background-size: cover;
     border-radius: 10px; 
 }
@@ -14,7 +12,8 @@ only screen and (                min-resolution: 192dpi),
 only screen and (                min-resolution: 2dppx) { 
   
   .intro-about__wrapper {
-      background-image: url("../img/about-intro-img@2x.jpg");
+      background: url("../img/about-intro-img@2x.jpg") no-repeat center;
+      background-size: cover;
     }
 }
 .intro-about__content {
@@ -37,7 +36,8 @@ only screen and (                min-resolution: 2dppx) {
 }
 @media screen and (max-width: $tablet) {
     .intro-about__wrapper {
-        background-image: url("../img/about-intro-tablet.jpg"); 
+        background: url("../img/about-intro-tablet.jpg") no-repeat center; 
+        background-size: cover;
     }
     .intro-about__content {
         width: 398px;
@@ -58,7 +58,8 @@ only screen and (                min-resolution: 2dppx) {
 }
 @media screen and (max-width: $mobile) {
     .intro-about__wrapper {
-        background-image: url("../img/about-intro-mobile.jpg"); 
+        background: url("../img/about-intro-mobile.jpg") no-repeat center; 
+        background-size: cover;
         text-align: center;
     }
     .intro-about__content {

@@ -1,7 +1,5 @@
 .intro__wrapper {
-    background-image: url("../img/about-intro-img.jpg");
-    background-repeat: no-repeat;
-    background-position: center center;
+    background: url("../img/about-intro-img.jpg") no-repeat center;
     background-size: cover;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
@@ -15,7 +13,8 @@ only screen and (                min-resolution: 192dpi),
 only screen and (                min-resolution: 2dppx) { 
   
   .intro__wrapper {
-      background-image: url("../img/intro-img@2x.jpg");      
+      background: url("../img/intro-img@2x.jpg") no-repeat center;
+      background-size: cover;      
   }
 }
 .intro__content {
@@ -43,8 +42,8 @@ only screen and (                min-resolution: 2dppx) {
 
 @media screen and (max-width: $tablet) {
     .intro__wrapper {
-        background-image: url("../img/intro-bg-tablet.jpg");
-        background-repeat: no-repeat;
+        background: url("../img/intro-bg-tablet.jpg") no-repeat center;
+        background-size: cover;
     }
     .intro__content {
         padding-left: 58px;
@@ -65,8 +64,8 @@ only screen and (                min-resolution: 2dppx) {
 
 @media screen and (max-width: $mobile) {
     .intro__wrapper {
-        background-image: url("../img/intro-bg-mobile.jpg"); 
-        background-repeat: no-repeat;
+        background: url("../img/intro-bg-mobile.jpg") no-repeat center; 
+        background-size: cover;
     }
     .intro__content {
         width: 100%;

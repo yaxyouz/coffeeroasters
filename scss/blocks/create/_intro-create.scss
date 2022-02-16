@@ -1,7 +1,5 @@
 .intro-create__wrapper {
-    background-image: url("../img/create-img.jpg");
-    background-repeat: no-repeat;
-    background-position: center center;
+    background: url("../img/create-img.jpg") no-repeat center;
     background-size: cover;
     border-radius: 10px;
 }
@@ -14,7 +12,8 @@ only screen and (                min-resolution: 192dpi),
 only screen and (                min-resolution: 2dppx) { 
   
   .intro-create__wrapper {
-    background-image: url("../img/create-img@2x.jpg");
+    background: url("../img/create-img@2x.jpg") no-repeat center;
+    background-size: cover;
   }
 }
 .intro-create__content {
@@ -38,7 +37,8 @@ only screen and (                min-resolution: 2dppx) {
 }
 @media screen and (max-width: $tablet) {
     .intro-create__wrapper {  
-        background-image: url("../img/create-img-tablet.jpg");
+        background: url("../img/create-img-tablet.jpg") no-repeat center;
+        background-size: cover;
     }
     .intro-create__content {
         margin-left: 58px;
@@ -57,7 +57,8 @@ only screen and (                min-resolution: 2dppx) {
 }
 @media screen and (max-width: $mobile) {
     .intro-create__wrapper {  
-        background-image: url("../img/create-img-mobile.jpg");
+        background: url("../img/create-img-mobile.jpg") no-repeat center;
+        background-size: cover;
     }
     .intro-create__content {
         text-align: center;
